@@ -33,7 +33,7 @@ public class RemoveContact extends TestBase{
                 return;
             }
             ClickAndRemove(contact);
-            wd.navigate().refresh(); // without refresh() removes 1 or 2 items and fails...
+            wd.navigate().refresh(); // without refresh() removes only 1 or 2 items and fails...
         } while (true);
     }
 
